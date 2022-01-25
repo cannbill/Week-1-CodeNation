@@ -522,4 +522,24 @@ const pet = {
     };
 
     pet.eat();
-    pet
+    pet.drink();
+
+    console.log("-------------");
+
+    let shoppingList = [
+        ["Water", "Lemonade", "Smoothie"], 
+        ["Coco-pops", "Shreddies", "Cornflakes"], 
+        ["Beer", "Wine", "Rum"]
+    ];
+
+    console.log(shoppingList[1][2]);
+
+    // or another way of doing this
+
+    let bigOne = [
+        {cat: "veg", list: ["carrot", "peppers"]}, 
+        {cat: "dog", list: ["food", "chews"]}, 
+        {cat: "cleaning", list: ["sponges", "fairy liquid"]}
+    ];
+    
+    console.log(bigOne[1].list[1]);
